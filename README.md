@@ -5,7 +5,7 @@ Parse terragrunt file
 ## Example
 
 ```go
-content, err := ioutil.ReadFile(terragruntFilename)
+content, err := ioutil.ReadFile("terragrunt.hcl")
 if err != nil {
 	return
 }
